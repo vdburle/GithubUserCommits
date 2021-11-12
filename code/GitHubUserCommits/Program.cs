@@ -11,6 +11,7 @@ namespace GitHubUserCommits
 {
     class Program
     {
+        //making a commit
         //Constant definitions for github url and the commit search API
         private const string baseURL = "https://api.github.com/";
         private const string searchAPIParams = "/search/commits?q=committer:{0}&sort=committer-date&order=desc&per_page={1}&page={2}";
